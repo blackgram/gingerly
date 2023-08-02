@@ -60,6 +60,9 @@ export const Ellipse4 = styled.img`
     width: 2rem;
     height: 10rem;
   }
+  @media only screen and (max-width: 425px) {
+    top: 10vh ;
+  }
 `;
 export const Ellipse5 = styled.img`
   position: absolute;
@@ -73,6 +76,9 @@ export const Ellipse5 = styled.img`
   @media only screen and (max-width: 820px) {
     width: 1rem;
     height: 9rem;
+  }
+  @media only screen and (max-width: 425px) {
+    top: 12vh ;
   }
 `;
 export const Ellipse6 = styled.img`

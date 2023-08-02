@@ -105,6 +105,9 @@ export const Image = styled.img`
   @media only screen and (max-width: 420px) {
     margin: 3rem 0;
   }
+  @media only screen and (max-width: 380px) {
+    margin: 0;
+  }
 `;
 
 export const Button = styled.a`

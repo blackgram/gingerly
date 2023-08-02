@@ -82,4 +82,8 @@ export const DropDownItemTitle = styled.h2`
   font-size: 18px;
   line-height: 26px;
   text-align: start;
+
+  @media only screen and (max-width: 420px) {
+    margin: 0.5rem;
+  }
 `
