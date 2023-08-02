@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { devices } from "../../constants";
+// import { devices } from "../../constants";
 
 export const Ellipse1 = styled.img`
   /* background: url('/assets/Ellipse42.png'); */
@@ -10,7 +10,7 @@ export const Ellipse1 = styled.img`
   opacity: 0.6000000238418579px;
   z-index: 1;
 
-  @media only screen and (${devices.sm}) {
+  @media only screen and (max-width: 640px) {
     width: 40vw;
     height: 100vh;
   }
@@ -26,7 +26,7 @@ export const Ellipse2 = styled.img`
   opacity: 0.6000000238418579px;
   z-index: 1;
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     width: 6rem;
     height: 4rem;
   }
@@ -41,7 +41,7 @@ export const Ellipse3 = styled.img`
   opacity: 0.6000000238418579px;
   z-index: 2;
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     width: 5rem;
     height: 3rem;
   }
@@ -56,7 +56,7 @@ export const Ellipse4 = styled.img`
   opacity: 0.6000000238418579px;
   z-index: 2;
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     width: 2rem;
     height: 10rem;
   }
@@ -70,7 +70,7 @@ export const Ellipse5 = styled.img`
   opacity: 0.6000000238418579px;
   z-index: 2;
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     width: 1rem;
     height: 9rem;
   }
@@ -84,11 +84,11 @@ export const Ellipse6 = styled.img`
   opacity: 0.6000000238418579px;
   z-index: 0;
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     width: 15rem;
     height: 4rem;
   }
-  @media only screen and (${devices.sm}) {
+  @media only screen and (max-width: 640px) {
     width: 6rem;
     height: 1.5rem;
   }
@@ -102,11 +102,11 @@ export const Ellipse7 = styled.img`
   opacity: 0.6000000238418579px;
   z-index: 0;
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     width: 12rem;
     height: 3rem;
   }
-  @media only screen and (${devices.sm}) {
+  @media only screen and (max-width: 640px) {
     width: 5rem;
     height: 1rem;
   }

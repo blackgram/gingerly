@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { devices } from "../../constants";
+// import { devices } from "../../constants";
 
 export const Nav = styled.div`
   width: 100%;
@@ -39,13 +39,13 @@ export const DropDownContainer = styled.div`
   transform-origin: top;
   transform: ${({ active }) => active ? 'scaleY(1)' : 'scaleY(.3)'};
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     top: 32px;
 }
-@media only screen and (${devices.sm}) {
+@media only screen and (max-width: 640px) {
     top: 24px;
 }
-@media only screen and (${devices.xs}) {
+@media only screen and (max-width: 420px) {
   width: 120px ;
 
   }

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { devices } from '../../constants';
+// import { devices } from '../../constants';
 
 export const Nav = styled.div`
 width:100%;
@@ -17,7 +17,10 @@ font-weight: 900;
 z-index: 2;
 
 
-@media only screen and (${devices.md}) {
+@media only screen and (max-width: 820px) {
+    font-size: 30px;
+}
+@media only screen and (max-width: 640px) {
     font-size: 30px;
 }
 `;
@@ -36,10 +39,13 @@ color: #FFF;
 font-family: Inter;
 font-size: 16px;
 font-weight: 700;
-z-index: 2;
+z-index: 10;
 
 
-@media only screen and (${devices.md}) {
+@media only screen and (max-width: 820px) {
+    font-size: 16px;
+}
+@media only screen and (max-width: 640px) {
     font-size: 16px;
 }
 `;
@@ -55,10 +61,11 @@ color: #BA68C8;
 font-family: Inter;
 font-size: 16px;
 font-weight: 700;
-z-index: 2;
+z-index: 10;
 
 
-@media only screen and (${devices.md}) {
+
+@media only screen and (max-width: 820px) {
     display: none;
 }
 

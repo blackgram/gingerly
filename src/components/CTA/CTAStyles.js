@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { devices } from "../../constants";
+// import { devices } from "../../constants";
 
 export const Container = styled.div`
   display: flex;
@@ -8,10 +8,10 @@ export const Container = styled.div`
   margin: 100px;
   z-index: 3;
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     margin: 100px 70px;
   }
-  @media only screen and (${devices.sm}) {
+  @media only screen and (max-width: 640px) {
     flex-direction: column;
     margin: 0;
     width: 100%;
@@ -25,7 +25,7 @@ export const Div1 = styled.div`
   z-index: 2;
 
   
-  @media only screen and (${devices.sm}) {
+  @media only screen and (max-width: 640px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ export const H1 = styled.h1`
     font-weight: 600;
   }
 
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 820px) {
     &:nth-child(1) {
       font-size: 20px;
       font-weight: 600;
@@ -74,7 +74,7 @@ export const H1 = styled.h1`
     }
   }
 
-  @media only screen and (${devices.sm}) {
+  @media only screen and (max-width: 640px) {
     width: 80%;
 
 
@@ -98,11 +98,11 @@ export const Image = styled.img`
   z-index: 2;
 
 
-  @media only screen and (${devices.sm}) {
+  @media only screen and (max-width: 640px) {
     width:70%;
     height: auto;
   }
-  @media only screen and (${devices.xs}) {
+  @media only screen and (max-width: 420px) {
     margin: 3rem 0;
   }
 `;
