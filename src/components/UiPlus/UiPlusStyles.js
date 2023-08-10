@@ -104,7 +104,7 @@ export const Ellipse7 = styled.img`
   position: absolute;
   width: 15rem;
   height: 4rem;
-  bottom: 0;
+  bottom: -1px;
   right: 2vw;
   opacity: 0.6000000238418579px;
   z-index: 0;

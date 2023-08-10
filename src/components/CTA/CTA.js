@@ -24,7 +24,8 @@ const CTA = () => {
               alignItems: "center",
             }}
           >
-            Buy it Now
+            <div>Buy it Now</div>
+            <img style={{padding: "5px"}} src="/assets/arrow.svg" alt="arrow" />
           </div>
         </Button>
       </Div1>

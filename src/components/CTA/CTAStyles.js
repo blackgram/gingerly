@@ -119,3 +119,17 @@ export const Button = styled.a`
   z-index: 2;
 
 `;
+
+
+// export const btn = styled.button`
+// position: relative;
+// border:none;
+// transition: .4s ease-in;
+// z-index: 1;
+
+// &::before, ::after {
+//   position: absolute;
+//   content:'';
+//   z-index: -1;
+// }
+// `;
